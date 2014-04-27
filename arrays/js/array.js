@@ -76,10 +76,36 @@
 // });
 
 
-var x = [1,2,3];
-var y = [4,5,6];
-var z = x.concat(y);
+// var x = [1,2,3];
+// var y = [4,5,6];
+// var z = x.concat(y);
 
+// var my_array = [0,1,2,3,4,5];
+// var result = my_array.slice(1, 4);
+
+// console.log(result)
+
+// var words =["these", "are", "some", "words", 123.4];
+// var result = words.join (' ');
+
+
+
+
+
+
+// var my_array = [0,1,2,3,4,5,6];
+// console.log(my_array.toString());
+
+// delete my_array[2];
+
+// console.log(my_array.toString());
+
+var my_array = [0,1,2,3,4,5,6];
+console.log(my_array.toString());
+
+my_array[2] = "two";
+
+console.log(my_array.toString());
 
 
 
