@@ -61,6 +61,7 @@ function Person (name) {
 Person.prototype = personPrototype;
 
 jim = new Person ("Jim")
+nick = new Person ("Nick")
 
 
 
