@@ -35,3 +35,32 @@
 
 //video 3
 
+var personPrototype = {
+	name: 'Anonymous',
+	greet: function (name, mood) {
+		name = name || "You";
+		mood = mood || "good";
+
+		console.log('Hello, ' + name + '.' +
+					' I am ' + this.name +
+					' and I am in a ' + mood + ' mood!');
+	},
+
+	species: 'Homo Sapien'
+}
+//this is the idea (pseudo code) not actually
+//how it works in JS
+	// jim = new personPrototype
+	// jim.name = "Jim"
+	// jim.greet()
+
+function Person (name) {
+	this.name = name;
+	return this;
+}
+Person.prototype = personPrototype;
+
+jim = new Person ("Jim")
+
+
+
